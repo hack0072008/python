@@ -1,8 +1,8 @@
 # python
 
 ## pip
-    * yum -y install epel-release
-    * yum install python-pip
+      yum -y install epel-release
+      yum install python-pip
 
 ## venv
 pip install virtualenv
