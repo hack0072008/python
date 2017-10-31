@@ -1,15 +1,16 @@
 # python
 
+
 ## pip
-      yum -y install epel-release
-      yum install python-pip
+* yum -y install epel-release
+* yum install python-pip
 
 ## venv
 pip install virtualenv
 
 ## mysql
-    pip install mysql-python
-    import MySQLdb
+* pip install mysql-python
+* import MySQLdb
 
 ## consul
 pip install python-consul
@@ -51,9 +52,10 @@ pip install requests
     import sys
     reload(sys)
     sys.setdefaultencoding('utf8')
-    参考链接:http://wangye.org/blog/archives/629/
+[参考链接](http://wangye.org/blog/archives/629/ "参考")
 
 
+![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
 
 
 
