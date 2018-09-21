@@ -996,7 +996,7 @@ class HandlerRoute53(object):
         #{
         #    u'ChangeInfo': {
         #        u'Status': 'PENDING',
-        #        u'Comment': 'us5.sengledcloud.com',
+        #        u'Comment': 'us5.seng.com',
         #        u'SubmittedAt': datetime.datetime(2018,
         #        1,
         #        10,
@@ -1038,11 +1038,11 @@ class HandlerRoute53(object):
         #        u'ResourceRecordSetCount': 4,
         #        u'CallerReference': 'D5270453-2899-E9B4-9E1D-8748E1FD3787',
         #        u'Config': {
-        #            u'Comment': 'sengledcloud',
+        #            u'Comment': 'seng',
         #            u'PrivateZone': False
         #        },
-        #        u'Id': '/hostedzone/Z38ZSH4T84XB44',
-        #        u'Name': 'sengledcloud.com.'
+        #        u'Id': '/hostedzone/Z38ZSB44',
+        #        u'Name': 'seng.com.'
         #    },
         #    'ResponseMetadata': {
         #        'RetryAttempts': 0,
@@ -1558,6 +1558,6 @@ class HandlerECS(object):
     #ret = route53.change_resource_record_sets_A_ELB(action = 'DELETE', name = 'us5', elb_hosted_zone_id = 'Z1H1FL5HABSF5', elb_dns_name = 'elb-us.us-west-2.elb.amazonaws.com', alias_target_health = False)
 
     #status = route53.get_change_resource_record_sets_status(change_info_id = ret['ChangeInfo']['Id'])
-    #status = route53.get_change_resource_record_sets_status(change_info_id = '/change/CBP3OQKWMHPPI')
+    #status = route53.get_change_resource_record_sets_status(change_info_id = '/change/CBP3WMHPPI')
     #print '----------------------------'
     #print status
