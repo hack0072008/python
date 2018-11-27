@@ -1,4 +1,4 @@
-
+pip install pyotp
 
 >>> import base64
 >>> import pyotp
